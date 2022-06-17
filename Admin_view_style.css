@@ -1,0 +1,288 @@
+body{
+   background-color:#f0f0f0;
+   margin:0 auto;
+   font-family: 'Sanchez', serif;
+}
+/*Side bar style*/
+.container{
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+}
+
+.menu_items{
+	width: 200px;
+	height: 100%;
+	background: #000000;
+	padding: 0px;
+	position: fixed;
+	font-size: 1.15em;
+}
+
+.menu_items ul{
+	padding: 0;
+} 
+
+.menu_items a{
+	text-decoration: none;
+}
+
+.container .menu_items img{
+	max-width:100%; 
+}
+
+.menu_items li{
+	padding: 5px;
+	border-bottom: 1px solid #0f0f0f;
+	border-top: 1px solid #0f0f0f;
+}    
+
+.menu_items a{
+	padding: 12px;	
+	color: #ffffff;
+	display: block;
+	background-color: #000000; 
+}
+
+.menu_items .signupbtn a{
+	padding: 5px;
+}
+
+.menu_items .loginbtn {
+	background-color: #000000;
+	color: #ffffff;
+	border: 3px solid #ffffff;
+}
+
+.menu_items input{
+	padding: 5px;
+	height: 30px;
+}
+
+.menu_items li:hover{
+	background-color: #0f0f0f;
+}
+    
+.menu_items li:hover a{
+	color: #ffffff;
+}
+ 
+/*Main Container Style*/
+.main_container{
+	width: 100%;
+	margin-left: 200px;
+}
+
+.main{
+	margin: 20px;
+	margin-top:0px; 
+  	color: #000000;
+  	line-height: 25px;
+}
+
+.active_tab {
+	border-left:3px solid #ffffff;
+	text-decoration: underline;
+}
+
+/*Partition Style*/
+.partition {
+	display: flex;
+	justify-content: space-between;
+	max-height: 50%;
+	height: 500px;
+	margin-top: 20px;
+
+}
+
+.partition-2 {
+	display: flex;
+	justify-content: space-between;
+	max-height: 50%;
+	margin: 15px;
+	max-width: 100%;
+
+}
+
+/*Bar chart Style */
+#barcontainer {
+	border:2px solid #000000;
+	padding: 15px;
+	 background-color: #ffffff;
+	 min-width: 400px;
+
+}
+h2 {
+	margin-top: 0;
+}
+hr {
+	height: 1.5px;
+	background-color:#000000;
+}
+
+#bar1.bar, #bar2.bar, #bar3.bar, #bar4.bar{
+	border:1px solid #0f0f0f;
+}
+
+.part { 
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.part_in {
+	border:2px solid #000000;
+	padding: 15px;
+	height: 25%;
+	background-color: #ffffff;
+	margin-bottom: 15px; 
+
+}
+
+.part_in p{
+	text-align: right;
+	font-size: 1.15em;
+	font-weight: 700;
+	color: #000000;
+}
+
+.item-display {
+	border:2px solid #000000;
+	padding: 15px;
+	width:350px;
+	background-color: #ffffff;
+}
+
+img {
+	height: 110px;
+}
+
+.items{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 1.15em;
+	border-bottom: 2px solid #000000;
+}
+
+.items-2{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 1.15em;
+}
+
+.recent{
+	background-color: #ffffff;
+	border:2px solid #000000;
+	padding: 15px;
+	height: 95%;
+	width:100%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/* Table Style*/
+
+.table-style{
+	font-size: 1.20rem;
+	margin:0 auto;
+	font-family: 'Sanchez', serif;
+	text-align: center;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	width: 100%;
+}
+.table-style th{
+	font-weight: 700;
+}
+
+.table-style td ,.table-style th{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.table-style td{
+	border-top: 2px solid #000000;
+}
+
+.small {
+	font-size: 0.8rem;
+}
+
+button{
+	color: #000000;
+	background-color: #ffffff;
+	font-family: 'Sanchez', serif;
+	font-size: 1.20rem;
+	border: 2px solid #000000;
+	padding: 5px;
+	width: 100px;
+	margin: 5px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition: transform 1s;
+    border-radius: 8px; 
+}
+
+button:hover, button:focus {
+		color: #ffffff;
+		background-color: #000000;
+		transform: scale(0.90);
+}
+
+form{
+	width: 100%;
+	text-align: center;
+}
+
+form p{
+	text-align: left;
+	font-size: 1.15em;
+	font-weight: 700;
+}
+
+input {
+	width: 80%;
+	height: 50px;
+	border: 2px solid #000000;
+	padding: 0.5em;
+	font-size: 1.05em;
+	font-family: 'Sanchez', serif;
+	color: #707070;
+}
+
+select {
+	width: 80%;
+	height: 50px;
+	border: 2px solid #000000;
+	padding: 0.5em;
+	font-size: 1.05em;
+	font-family: 'Sanchez', serif;
+	color: #000000;
+}
+
+.big_btn {
+	width:45%;
+	height: 80px;
+	font-weight: 700;
+}
+
+.big_btn a{
+	text-decoration: none;
+	color: #000000;
+	padding:40px 223px 40px 223px;
+}
+
+.big_btn a:hover, .big_btn a:focus {
+	color: #ffffff;
+}
+
+
+@media(max-width: 1250px){
+	.big_btn a{
+		padding:30px 80px 30px 80px;
+	}
+}

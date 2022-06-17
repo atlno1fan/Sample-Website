@@ -1,0 +1,133 @@
+.signupform form {
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+.signupform {
+	font-family: 'Sanchez', serif;
+	font-size: 1.25em;
+	text-align: center;
+	width: 98%;
+	margin: 0.5em;
+}
+
+.signupform p{
+	text-align: left;
+	padding: 0 0 0 3em;
+}
+
+.signupform input{
+	width: 70%;
+	height: 50px;
+	border: 2px solid #000000;
+	padding: 0.5em;
+	font-size: 1.05em;
+	font-family: 'Sanchez', serif;
+}
+
+.signupform button{
+	padding: 0.5em;
+	margin: 0 auto;
+	width:30%;
+	background-color: #ffffff;
+	border: 2.5px solid #0f0f0f;
+	font-size: 1.28em;
+	font-family: 'Sanchez', serif;
+	font-weight: 700;
+	color: #0f0f0f;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition: transform 1s;
+}
+ .signupform button:hover,.signupform button:focus{
+ 	background-color:#0f0f0f;
+	border: 2.5px solid #ffffff;
+	border-radius: 8px;
+	color: #ffffff;
+	transform: scale(0.90);
+
+ }
+
+
+@media(max-width: 1250px){
+	.signupform input{
+		width: 80%;
+		height: 70px;
+	}
+	.signupform p{
+	text-align: left;
+	padding: 0 0 0 0;
+}
+.signupform button{
+	width: 60%;
+	padding: 0.8em;
+
+}
+
+li {
+	height: 20px;
+}
+
+.menu-items-container{
+	display: flex;
+	max-width: 80%;
+	justify-content: space-between;
+	margin: 0 auto;	
+	padding: 1.25em;
+}
+
+.menu-item-container{
+	margin: 0 auto;
+	justify-content: center;
+	width: 25%;
+	max-width:25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: center;
+}
+.menu-item-container h2 {
+	font-size: 1em;
+	align-self: center;
+}
+
+
+.menu-item-container img {
+	margin:0 auto;
+
+}
+
+.menu-items-container img{
+	width:90%;
+	display: block;
+
+}
+
+.menu-item-container a {
+	text-decoration: none;
+	color: #000000;
+	transition: transform 2s;
+}
+
+.menu-item-container a:hover, .menu-item-container a:focus{
+		transform: scale(1.15);
+		text-decoration: underline;
+}
+
+@media(max-width: 1250px){
+	.menu-items-container{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.menu-items-container img{
+		margin-top: 1em;
+		margin-left: 0.25em;
+		width:95%;
+	}
+	.menu-item-container{
+	width: 100%;
+	max-width:100%;
+}
+}

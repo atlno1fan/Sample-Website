@@ -1,0 +1,8 @@
+select {
+	width: 80%;
+	padding: 1em;
+	font-size: 1.25em;
+	font-family: 'Sanchez', serif;
+	text-align: center;
+	border: 2px solid #000000;
+}

@@ -1,0 +1,29 @@
+.category-section{
+	margin: 0 auto;
+	width:100%;
+	display: block;
+	text-align: center;
+	font-family: 'Sanchez', serif;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+
+.category-section button {
+	height: 275px;
+	background-color: transparent;
+	font-family: 'Sanchez', serif;
+	font-size: 1em;
+	padding: 0;
+	border: 0px;
+	transition: transform 2s;
+}
+
+.category-section img{
+	height: 80%;
+}
+
+.category-section button:hover, .category-section button:focus{
+		transform: scale(1.15);
+		text-decoration: underline;
+}

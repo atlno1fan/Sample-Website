@@ -1,0 +1,85 @@
+.table-style{
+	font-size: 1em;
+	margin:0 auto;
+	font-family: 'Sanchez', serif;
+}
+
+.table-style button {
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 0.75em;
+	background-color: #ffffff;
+	border: 2.5px solid #0f0f0f;
+	color: #0f0f0f;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition: transform 1s;
+}
+
+.table-style button:hover,.table-style button:focus{
+ 	background-color:#0f0f0f;
+	border: 2.5px solid #ffffff;
+	border-radius: 8px;
+	color: #ffffff;
+	transform: scale(0.90);
+
+ }
+
+.table-style th{
+	font-weight: 700;
+}
+
+.table-style td ,.table-style th{
+	padding:1.5em;
+	border-bottom: 2px solid #0f0f0f;
+}
+
+.table-style input{
+	width:80px;
+	margin: 10px;
+	border:1px solid #0f0f0f; 
+	font-size: 1.15em;
+}
+
+.ordering-section{
+	text-align: center;
+	font-family: 'Sanchez', serif;
+}
+
+.ordering-section h1{
+	text-align: left;
+	margin: 20px 0 0 80px;
+	font-size: 2em;
+}
+.ordering-section button{
+	font-family: 'Sanchez', serif;
+	color:#000000;
+	background-color: #ffffff;
+	font-size: 1em;
+	border-radius: 8px;
+	text-decoration: none;
+	border:2px solid #0f0f0f;
+	padding: 10px;
+}
+.ordering-section a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.ordering-section a:hover,.ordering-section a:focus{
+	color: #ffffff;
+}
+
+.ordering-section button:hover,.ordering-section button:focus{
+	background-color:#0f0f0f;
+	border: 2.5px solid #ffffff;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+@media(max-width: 1250px){
+	.table-style{
+		font-size:1em;
+	}
+}
